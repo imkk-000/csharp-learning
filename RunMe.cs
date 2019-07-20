@@ -6,7 +6,9 @@ namespace csharp_learning
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Run Main Without Class Program");
+            string firstWord = Console.ReadLine();
+            string secondWord = Console.ReadLine();
+            Console.WriteLine(firstWord + secondWord);
         }
     }
 }
